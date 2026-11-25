@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Nunito Sans", sans-serif;
+}
+:root{
+    /* paleta */
+    --black_finan: #0C0E13;
+    --white_finan: #FAFBFC;
+    --azul_claro: #4A86FA;
+    --ciano: #13D0C2;
+    --azul_escuro: #1E2F5F;
+    --cinza: #C4C4C4;
+
+    /* superficies em degrais (1, 2 e 3) */
+    --superficie-1:#121722;
+    --superficie-2:#161C29;
+    --superficie-3:#1C2433;
+    --vidro:#121722C7; /* (opacidade 78% - C7) */
+
+    /*BORDAS*/
+    --borda-forte:#7E9CD645;
+
+    /*Textos*/
+    --texto-white: #FAFBFC;
+    --texto-secundario: #AAB4C8;
+    --texto-terciario: #7B87A0;
+}

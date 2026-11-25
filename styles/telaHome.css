@@ -1,0 +1,150 @@
+body {
+  background-color: var(--black_finan);
+}
+
+/*CONTAINERS DO HEADER BLOCO INTEIROS*/
+.header-container-geral {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--borda-forte);
+}
+
+.header-div-logo {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.header-div-botoes {
+  
+  display: flex;
+  align-items: center;
+}
+
+/*CONTAINER DO BOTAO DE MESES*/
+.header-select-list-div {
+  background-color: var(--superficie-1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid var(--borda-forte);
+  width: 11.12rem;
+  height: 2.75rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+#listagem-meses {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: var(--texto-white);
+  font-size: 0.88rem;
+}
+#listagem-meses:focus-visible {
+  outline: none;
+}
+#listagem-meses:hover {
+  cursor: pointer;
+}
+#cont-button-meses-seta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 60%;
+}
+#cont-button-meses-seta:hover {
+  cursor: pointer;
+}
+.icon-calendar-header {
+  width: 1rem;
+  height: auto;
+}
+.icon-calendar-header path {
+  stroke: var(--texto-secundario);
+}
+.icon-chevron-down-header {
+  width: 1rem;
+  height: auto;
+}
+.icon-chevron-down-header path {
+  stroke: var(--texto-secundario);
+}
+
+/*CONTAINER DA BARAA DE PESQUISA*/
+.header-search-bar {
+  background-color: var(--superficie-1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid var(--borda-forte);
+  width: 15rem;
+  height: 2.75rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin-left: 1rem;
+}
+.icon-search-header {
+  width: 1.125rem;
+  height: auto;
+}
+.icon-search-header path {
+  stroke: var(--texto-secundario);
+}
+
+.header-search-bar input {
+  background-color: transparent;
+  border-style: none;
+  width: 89%;
+  height: 70%;
+  color: var(--texto-white);
+  font-size: 0.88rem;
+}
+.header-search-bar input:focus {
+  outline: none;
+}
+.header-search-bar input::placeholder {
+  color: var(--texto-terciario);
+  font-size: 0.88rem;
+}
+
+/*CONTAINER DO BOTAO DE NOTIFICACOES*/
+.header-notification {
+  background-color: var(--superficie-1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid var(--borda-forte);
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-left: 1rem;
+}
+.icon-notifi-ball-header {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.7rem;
+  pointer-events: none;
+}
+
+
+/*CONTAINER PERFIL COM A SETA*/
+
+.header-button-perfil{
+    
+    display:inline-flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-pefil-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    border: 1px solid var(--borda-forte);
+}
